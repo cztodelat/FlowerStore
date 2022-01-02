@@ -161,7 +161,6 @@ a {
 .popular-bouq-section__content {
     padding-top: 30px;
     padding-bottom: 30px;
-    color: #000;
 }
 
 .product {
@@ -205,6 +204,44 @@ a {
 
 
 /**** END POPULAR BOUQ SECTION ****/
+
+/**** BEGIN ORDER PROCCESS SECTION ****/
+
+.order-proccess-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #F5F5F5;
+}
+
+.order-step {
+    display: flex;  
+    align-items: center;
+}
+
+.order-step__img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+.order-step__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-step__description {
+    text-align: center;
+}
+
+.order__arrow {
+    width: 80px;
+    height: 80px;
+}
+
+
+/**** END ORDER PROCCESS SECTION ****/
 
 /**** BEGIN OPINIONS SECTION ****/
 
