@@ -47,6 +47,13 @@ a {
     margin-bottom: 15px;
 }
 
+.section__title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
 .btn {
     border: none;
     margin: 0;
@@ -62,8 +69,6 @@ a {
     background: #ff5c62;
     color: #fff;
     border-radius: 5px;
-    padding: 8px 50px;
-    text-transform: uppercase;
     font-weight: 500;
 }
 
@@ -145,10 +150,61 @@ a {
 .welcome-section__btn {
     position: absolute;
     bottom: 50px;
+    padding: 8px 50px;
+    text-transform: uppercase;
 }
 
 /**** END WELCOME SECTION ****/
 
+/**** BEGIN POPULAR BOUQ SECTION ****/
+
+.popular-bouq-section__content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #000;
+}
+
+.product {
+    width: 100%;
+    border: #999999 1px solid;
+    padding-bottom: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product__info {
+    margin-bottom: 10px;
+}
+
+.product__img {
+    height: 375px;
+    width: 100%;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
+
+.product__description {
+    display: inline-block;
+    color: #585861;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.product__buy {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__buy-btn {
+    padding: 5px 15px;
+}
+
+
+/**** END POPULAR BOUQ SECTION ****/
 
 /**** BEGIN OPINIONS SECTION ****/
 
@@ -160,13 +216,6 @@ a {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
-}
-
-.opinions-section__title {
-    text-align: center;
-    margin-bottom: 25px;
-    font-weight: 400;
-    font-size: 30px;
 }
 
 .img-wrapper {
