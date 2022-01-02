@@ -193,8 +193,14 @@ a {
 
 /**** END OPINIONS SECTION ****/
 
+/**** BEGIN FOOTER ****/
 
-/**** BEGIN MAKEORDER SECTION ****/
+.footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/**** END FOOTER ****/
 
 .makeorder-section {
     background: rgb(184, 37, 37);
