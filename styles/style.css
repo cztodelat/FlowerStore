@@ -149,6 +149,51 @@ a {
 
 /**** END WELCOME SECTION ****/
 
+
+/**** BEGIN OPINIONS SECTION ****/
+
+.opinions-section {
+    background: #ff5c62;
+}
+
+.opinions-section__content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.opinions-section__title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.img-wrapper {
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.opinion__img {
+    width: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.opinion {
+    display: flex;
+}
+
+.opinion__name {
+    margin-bottom: 10px;
+}
+
+/**** END OPINIONS SECTION ****/
+
+
 /**** BEGIN MAKEORDER SECTION ****/
 
 .makeorder-section {
