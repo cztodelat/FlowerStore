@@ -67,3 +67,21 @@ a {
 
 
 /**** END WELCOME SECTION ****/
+
+/**** BEGIN MAKEORDER SECTION ****/
+
+.makeorder-section {
+    background: rgb(184, 37, 37);
+    height: 200px;
+}
+
+/**** END MAKEORDER SECTION ****/
+
+/**** BEGIN FLOWER 1 SECTION ****/
+
+.flower1-section {
+    background: rgb(22, 207, 84);
+    height: 200px;
+}
+
+/**** END MAKEORDER SECTION ****/
