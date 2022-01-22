@@ -337,6 +337,11 @@ a {
 
 /**** BEGIN CONTACT SECTION ****/
 
+
+.contact-section {
+  height: calc(100% - 127px);
+}
+
 .form-control {
   border: 1px solid black;
 }
@@ -452,23 +457,29 @@ a {
   .contact-section .php-email-form button[type=submit]:hover {
     background: #ff5c62;
   }
-  @-webkit-keyframes animate-loading {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  @keyframes animate-loading {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
   
+  .alert-success {
+    z-index: 1;
+    background: #D4EDDA;
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 420px;
+    top: 10px;
+    border-left: 8px solid #3ad66e;
+    border-radius: 4px;
+  }
+
+  .alert-error {
+    z-index: 1;
+    background: #D4EDDA;
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 420px;
+    top: 10px;
+    border-left: 8px solid #da2b1e;
+    border-radius: 4px;
+  }
+
 /**** END CONTACT SECTION ****/
 
 
