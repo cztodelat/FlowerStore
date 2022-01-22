@@ -49,9 +49,19 @@ a {
 
 .section__title {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-weight: 400;
     font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section__description {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #585861;
+  padding: 0 30%;
 }
 
 .btn {
@@ -210,7 +220,7 @@ a {
 .order-proccess-section {
     padding-top: 30px;
     padding-bottom: 30px;
-    background: #F5F5F5;
+    background: #f7f7f7;
 }
 
 .order-step {
@@ -219,9 +229,10 @@ a {
 }
 
 .order-step__img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 250px;
     margin-bottom: 25px;
+    object-fit: cover;
 }
 
 .order-step__content {
@@ -231,8 +242,19 @@ a {
     align-items: center;
 }
 
+.order-step__description-title {
+    font-weight: lighter;
+    font-size: 22px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
 .order-step__description {
     text-align: center;
+    color: #6d6a6a;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .order__arrow {
@@ -245,14 +267,11 @@ a {
 
 /**** BEGIN OPINIONS SECTION ****/
 
-.opinions-section {
-    background: #ff5c62;
-}
 
 .opinions-section__content {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #000;
 }
 
 .img-wrapper {
@@ -274,7 +293,14 @@ a {
 }
 
 .opinion__name {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.opinion__text {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 
 /**** END OPINIONS SECTION ****/
@@ -284,6 +310,7 @@ a {
 .footer {
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: #fefaf3;
 }
 
 /**** END FOOTER ****/
@@ -309,6 +336,10 @@ a {
 /**** END ALL BOUQ SECTION ****/
 
 /**** BEGIN CONTACT SECTION ****/
+
+.form-control {
+  border: 1px solid black;
+}
 
 .contact-section .info-wrap {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
