@@ -43,18 +43,18 @@
         <div class="container">
             <form action="mix-bouq.php" method="post" class="order-form">
                 <div class="row margin-b-sm">
-                    <div class="col-6">
-                        <input class="order-form__field" name="name" type="text" placeholder="Your Name" required>
+                    <div class="col-md-6">
+                        <input class="order-form__field mb-4 mb-md-0" name="name" type="text" placeholder="Your Name" required>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <input class="order-form__field" name="address" type="text" placeholder="Address" required>
                     </div>
                 </div>
                 <div class="row margin-b-sm">
-                    <div class="col-6">
-                        <input class="order-form__field" name="phone" type="tel" placeholder="Your phone number" required>
+                    <div class="col-md-6">
+                        <input class="order-form__field mb-4 mb-md-0" name="phone" type="tel" placeholder="Your phone number" required>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <input class="order-form__field" name="date" type="date" part="Suply date" required>
                     </div>
                 </div>
