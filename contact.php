@@ -91,8 +91,7 @@
                                 required>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                required></textarea>
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
                                 
                         </div>
                         <div class="my-3">

@@ -29,8 +29,12 @@ $mail -> SMTPSecure = "ssl";
 $mail -> isHTML(true);
 $mail ->SetFrom($email, $name);
 $mail ->AddAddress("projekttest7@gmail.com");
-$mail ->Subject= ("$email ($subject)");
-$mail ->Body = $message; 
+$mail ->Subject= ("$subject");
+$mail ->Body = "
+  I'm $name
+  My email: $email
+  $message
+"; 
 
 $mail -> send();
 
