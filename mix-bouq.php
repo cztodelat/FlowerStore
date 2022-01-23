@@ -60,7 +60,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <textarea class="order-form__text" name="massege" rows="5" placeholder="Message"></textarea>
+                        <textarea class="order-form__text" name="message" rows="5" placeholder="Message"></textarea>
                     </div>
                 </div>
                 <div class="my-3">
@@ -68,7 +68,7 @@
                         echo $alert;
                     ?>
                 </div>
-                <button type="submit" class="btn btn_main order-form__btn" onclick="sendEmail()">Make order</button>
+                <button type="submit" name ="submit" class="btn btn_main order-form__btn" onclick="sendEmail()">Make order</button>
             </form>
         </div>
     </section>
@@ -79,5 +79,6 @@
         </div>
     </footer>
 </body>
+
 
 </html>
