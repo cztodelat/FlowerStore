@@ -48,6 +48,7 @@ $alert = '<div class = "alert-success">
             <span> '.$e -> getMessage().' </span>
           </div>';
 }
+
 }
 
 ?>
