@@ -20,10 +20,10 @@
     <nav class="nav">
         <div class="container">
             <div class="row navbar-items">
-                <div class="col-1">
+                <div class="col-lg-1 col-md-2 col-sm-3">
                     <a class="nav__brand" href="index.html">Flos</a>
                 </div>
-                <div class="col-11">
+                <div class="col-lg-11 col-md-10 col-sm-9">
                     <ul class="nav__list clear-list">
                         <li class="nav__item">
                             <a class="nav__link" href="index.html">Home</a>
