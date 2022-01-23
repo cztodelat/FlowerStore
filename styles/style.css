@@ -395,6 +395,10 @@ a {
 
 /**** BEGIN CONTACT SECTION ****/
 
+.contact-section {
+  height: calc(100% - 127px);
+}
+
 .form-control {
   border: 1px solid black;
 }
