@@ -544,7 +544,7 @@ a {
 /**** BEGIN ORDER FORM ****/
 
 .order-form-section {
-  height: calc(100% - 148px);
+  height: calc(100% - 130px);
 }
 
 .order-form {
