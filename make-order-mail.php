@@ -54,8 +54,6 @@ $alert = '<div class = "alert-success">
           </div>';
 }
 
-
-
 }
 
 ?>

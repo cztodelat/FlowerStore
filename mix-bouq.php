@@ -75,7 +75,7 @@
                         echo $alert;
                     ?>
                 </div>
-                <button type="submit" name="submit" class="btn btn_main order-form__btn" onclick="sendEmail()">Make order</button>
+                <button type="submit" name ="submit" class="btn btn_main order-form__btn" onclick="sendEmail()">Make order</button>
             </form>
         </div>
     </section>
@@ -86,5 +86,6 @@
         </div>
     </footer>
 </body>
+
 
 </html>
