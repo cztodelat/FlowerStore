@@ -16,6 +16,7 @@ $address = $_POST['address'];
 $phone = $_POST['phone'];
 $date = $_POST['date'];
 $message = $_POST['message'];
+$productName = $_POST['productName'];
 
 try
 {
@@ -32,11 +33,12 @@ $mail ->SetFrom($name, 'projekttest7@gmail.com');
 $mail ->AddAddress("projekttest7@gmail.com");
 $mail ->Subject= ("New order");
 $mail ->Body = "
-    I'm $name
-    My address: $address
-    My phone number: $phone
-    Suply date: $date
-    Message: $message
+    <strong>Product:</strong> $productName<br>
+    <strong>I'm</strong> $name<br>
+    <strong>My address:</strong> $address<br>
+    <strong>My phone number:</strong> $phone<br>
+    <strong>Suply date:</strong> $date<br>
+    <strong>Message:</strong> $message<br>
 "; 
 
 $mail -> send();

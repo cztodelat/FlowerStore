@@ -41,7 +41,14 @@
 
     <section class="order-form-section">
         <div class="container">
-            <form action="mix-bouq.php" method="post" class="order-form">
+            <?php
+                $productName = $_GET['productName'];
+                echo $productName;
+            ?>
+            <form action="mix-bouq.php?productName=<?php echo $productName?>" method="post" class="order-form">
+            <?php
+               echo "<input name='productName' type='text' value=\"$productName\" hidden>"
+            ?>
                 <div class="row margin-b-sm">
                     <div class="col-md-6">
                         <input class="order-form__field mb-4 mb-md-0" name="name" type="text" placeholder="Your Name" required>
@@ -60,7 +67,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <textarea class="order-form__text" name="massege" rows="5" placeholder="Message"></textarea>
+                        <textarea class="order-form__text" name="message" rows="5" placeholder="Message"></textarea>
                     </div>
                 </div>
                 <div class="my-3">
@@ -68,7 +75,7 @@
                         echo $alert;
                     ?>
                 </div>
-                <button type="submit" class="btn btn_main order-form__btn" onclick="sendEmail()">Make order</button>
+                <button type="submit" name="submit" class="btn btn_main order-form__btn" onclick="sendEmail()">Make order</button>
             </form>
         </div>
     </section>
